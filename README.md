@@ -22,4 +22,17 @@ Config proxy for typing, create .typingsrc file on project angular2/.typingsrc
  +* node/
  +* git/
  +* typings/
+ 
+ 
+ 
+ Exclude file/folder on Sublime Text: Preference -> Settings - User:
+ {
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"file_exclude_patterns": ["*.ts","*.map","*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace"],
+	"folder_exclude_patterns": [".git", "typings", "node_modules", ".svn", "._d", ".metadata", ".settings"]
+}
+ 
   
